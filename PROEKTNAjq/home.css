@@ -1,0 +1,206 @@
+header
+{
+  position:static;
+}
+li {
+    display: inline;
+    float: right;
+  }
+li a {
+    color: black;
+}
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+  }
+  li a.active {
+    background-color: rgba(0, 0, 0, 0.863);
+    color: white; 
+border-radius:  10px ;}
+
+  a {
+    display: block;
+    padding: 10px;
+    color: black
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: burlywood;
+    width: 100%;
+    border: 1px saddlebrown;
+    background-color: burlywood;
+  }
+
+  #menu
+  {
+    width: 100%;
+    background-color: burlywood;
+    height: 50px;
+  }
+
+  #welcome
+  {
+    background-color: saddlebrown;
+  width: 300px;
+  height: 200px;
+  
+  padding: 50px;
+  margin: 20px;
+  
+  }
+  #welcome1
+  {display: none;}
+  #welcome:hover {
+    background-color: white;
+  }
+  hr 
+  {
+    border: 40px dashed white;
+  }
+  .center {
+    display: flex;
+    justify-content: center;
+  }
+
+  #click
+  {
+    border: none;
+    background-color: burlywood;
+    padding: 15px 32px;
+    text-align: center;
+    color:black;
+    width: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+
+  
+  #footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;  
+    text-align: right;
+ }
+
+/* do tuka za home i header, footer */
+
+.panel {display: none;}
+#one {display: block;}
+
+#sectionChooser
+{
+  border: none;
+  background-color: burlywood;
+  padding: 15px 32px;
+  text-align: center;
+  color:black; 
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+/*do  ovde za zapoznaj rabotite*/ 
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 50px;
+}
+#row
+{
+  width: 300px;
+height: 100px;
+padding: 15px;
+background-color: coral;
+box-shadow: 10px 10px 5px lightblue;
+}
+.shadow 
+{
+  box-shadow: inset 0 0 10px #f8a100;
+}
+
+/*tuka lajk */
+#postform
+{
+  background-color: burlywood;
+  padding: 20px;
+  border-radius:5px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+form {
+  display:block;
+  flex-direction: column;
+  
+}
+label {
+  font-weight: bold;
+}
+
+.post {
+  background-color: burlywood;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display:block;
+  width: 50%;
+  
+  
+}
+
+/* inspo blogoj*/
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:first baseline
+}
+
+.columns {
+  display: grid;
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  flex-basis: calc(33.33% - 20px);
+}
+
+/*anketata*/
+fieldset
+ {
+    background-color: rgba(222, 184, 135, 0.541);
+    width: 50%;
+    margin-top: 1.5cm;
+    color: black;
+    background-blend-mode:difference;
+    
+ }
+
+/* kontakt */ 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.social-links img {
+  width: 100%;
+  height: 100%;
+}
+
